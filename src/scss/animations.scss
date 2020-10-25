@@ -1,0 +1,33 @@
+@keyframes moveUp {
+  from {
+    transform: translateY(20px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes showItem {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes toggleVal {
+  0% {
+    right: 0;
+  }
+
+  50% {
+    right: -35px;
+  }
+
+  100% {
+    right: 0;
+  }
+}
